@@ -1,0 +1,20 @@
+{
+  "name": "redact-logs",
+  "version": "1.0.0",
+  "description": "Redact env vars from console.log & process.stdout",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "map-obj": "^4.1.0",
+    "redact-env": "^0.3.0",
+    "replacestream": "^4.0.3"
+  },
+  "devDependencies": {
+    "execa": "^4.0.3"
+  }
+}
